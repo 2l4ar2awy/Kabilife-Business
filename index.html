@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kabilife Book</title>
+
+  <!-- استدعاء الخط -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Arabic:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: "Cairo", Arial, sans-serif;
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: #fff;
+      font-family: "Montserrat Arabic", sans-serif;
+      background: #fff;
+      color: #222;
       margin: 0;
       display: flex;
       flex-direction: column;
@@ -19,48 +23,52 @@
       padding: 20px;
     }
     h1 {
-      margin-bottom: 15px;
-      font-size: 32px;
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: 600;
     }
     p {
-      font-size: 18px;
-      margin-bottom: 25px;
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
       line-height: 1.6;
+      max-width: 500px;
     }
     img {
-      max-width: 280px;
-      border-radius: 12px;
+      max-width: 260px;
+      border-radius: 10px;
       margin-bottom: 25px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
       transition: transform 0.3s;
     }
     img:hover {
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
     .btn {
       display: inline-block;
-      margin: 10px;
-      padding: 14px 28px;
-      font-size: 18px;
+      margin: 8px;
+      padding: 12px 26px;
+      font-size: 15px;
       text-decoration: none;
       color: #fff;
-      background: #ff7e5f;
-      border-radius: 8px;
+      background: #1e3c72;
+      border-radius: 6px;
       transition: background 0.3s, transform 0.2s;
+      font-weight: 500;
     }
     .btn:hover {
-      background: #feb47b;
+      background: #2a5298;
       transform: translateY(-2px);
     }
   </style>
 </head>
 <body>
-  <h1>📖 كتاب Kabilife</h1>
-  <p>تصفح كتاب Kabilife مباشرة أو قم بتحميل نسخة مجانية.</p>
+  <h1>كتاب Kabilife</h1>
+  <p>يمكنك تصفح الكتاب مباشرة أونلاين أو تحميل نسخة كاملة للاحتفاظ بها.</p>
   <img src="cover.jpg" alt="غلاف الكتاب">
   <div>
     <a href="Kabilife.pdf" target="_blank" class="btn">تصفح الكتاب</a>
-    <a href="Kabilife.pdf" download class="btn">⬇️ تحميل الكتاب</a>
+    <a href="Kabilife.pdf" download class="btn">تحميل الكتاب</a>
   </div>
 </body>
 </html>
