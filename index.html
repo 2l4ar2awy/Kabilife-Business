@@ -1,1 +1,66 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabilife Book</title>
+  <style>
+    body {
+      font-family: "Cairo", Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 15px;
+      font-size: 32px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 280px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #fff;
+      background: #ff7e5f;
+      border-radius: 8px;
+      transition: background 0.3s, transform 0.2s;
+    }
+    .btn:hover {
+      background: #feb47b;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <h1>📖 كتاب Kabilife</h1>
+  <p>تصفح كتاب Kabilife مباشرة أو قم بتحميل نسخة مجانية.</p>
+  <img src="cover.jpg" alt="غلاف الكتاب">
+  <div>
+    <a href="Kabilife.pdf" target="_blank" class="btn">تصفح الكتاب</a>
+    <a href="Kabilife.pdf" download class="btn">⬇️ تحميل الكتاب</a>
+  </div>
+</body>
+</html>
